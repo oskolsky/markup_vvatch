@@ -1,0 +1,9 @@
+# RubyMine
+.idea
+
+# Project file
+config.txt
+*.log
+
+# Grunt
+node_modules
