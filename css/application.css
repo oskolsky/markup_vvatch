@@ -1,0 +1,223 @@
+/* Global style */
+html {height: 100%;}
+
+body {
+  color: #000;
+  font: 62.5%/1.5 Helvetica, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;  
+}
+
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: "";
+  line-height: 0;
+}
+  .f-left  {float: left;}
+  .f-right {float: right;}
+
+.container {
+  margin: 0 auto;
+  min-width: 230px;
+  padding: 20px 22px;
+}
+.iPhone .container {
+  width: 276px;
+}
+
+.cols-1 {
+  width: 230px
+}
+
+/* Content style */
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+/* HR */
+.hr {
+  background: #e3e3e3;
+  height: 1px;
+  width: 140px;
+}
+
+/* Sidebar */
+.sidebar {
+  float: left;
+  height: 695px;
+  margin: 20px 0 0 20px;
+  padding: 25px 18px 20px;
+  position: relative;
+  width: 194px;
+  z-index: 1000;
+}
+.iPhone .sidebar {
+  width: 240px;
+}
+
+/* Logo */
+.logo {
+  margin-bottom: 45px;
+}
+
+/* Main menu */
+.menu_title {
+ margin-bottom: 10px; 
+}
+  .menu_title a{
+    color: #000;
+    text-decoration: none;
+  }
+  .menu_title a:hover {
+    text-decoration: underline;
+  }
+.menu {
+  list-style: none;
+}
+.menu_main {
+  margin-bottom: 24px;
+}
+.menu_brand {
+  margin-top: 24px;
+}
+  .menu_i {
+    display: block;
+  }
+    .menu_a {
+      color: #777;
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration: none;
+    }
+    .menu_a__current {
+      color: #000;
+      font-weight: bold;
+    }
+    .menu_a:hover {
+      color: #000;
+    }
+
+/* Basket */
+.basket {
+  margin: 26px 0 22px;
+}
+  .basket_title {
+    margin-bottom: 16px;
+  }
+    .basket_title a {
+      color: #000;
+      text-decoration: none;
+    }
+    .basket_title a:hover {
+      text-decoration: underline;
+    }
+  .basket_price {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 21px;
+  }
+    .basket_price small {
+      font-size: 14px;
+      font-weight: normal;
+    }
+  .basket_order {
+
+  }
+    .basket_order a {
+      color: #777;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .basket_order a:hover {
+      color: #000;
+    }
+
+/* Banner */
+.banner {
+  margin: 20px 0;
+}
+  .banner img {
+    display: block;
+  }
+
+/* Module item */
+.modules {
+  margin: -20px 0 0 -20px;
+}
+  .module {
+    float: left;
+    height: 360px;
+    margin: 20px 0 0 20px;
+    position: relative;
+    width: 230px;
+    z-index: 1000;
+  }
+  .iPhone .module {
+    height: 432px;
+    width: 276px;  
+  }
+    .module a {
+      color: #000;
+      text-decoration: none;
+    }
+      .module_photo {
+        display: block;
+        height: 360px;
+        width: 230px;
+      }
+      .iPhone .module_photo {
+        height: 432px;
+        width: 276px;
+      }
+      .module_caption {
+        bottom: 0;
+        display: none;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1000;
+      }
+        .module_header {
+          left: 20px;
+          position: absolute;
+          right: 20px;
+          top: 160px;
+          z-index: 1000;
+        }
+        .iPhone .module_header {
+          top: 190px;  
+        }
+          .module_hgroup {
+            line-height: 20px;
+            text-align: center;
+          }
+        .module_footer {
+          bottom: 40px;
+          left: 20px;
+          position: absolute;
+          right: 20px;
+          z-index: 1000;
+        }
+          .module_price {
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 20px;
+            text-align: center;
+          }
+            .module_price small {
+              font-size: 14px;
+              font-weight: normal;
+            }
